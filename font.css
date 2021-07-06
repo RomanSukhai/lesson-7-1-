@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Kanit-extaralight';
+    src: url(font/kanit-extralight.otf);
+}
+@font-face {
+    font-family: 'Kanit-extrabold';
+    src: url(font/kanit-extrabold.otf);
+}
+@font-face {
+    font-family: 'kanit-regular';
+    src: url(font/kanit-regular.otf);
+}
+@font-face {
+    font-family: 'kanit-medium';
+    src: url(font/kanit-medium.otf);
+}
+@font-face {
+    font-family:'kanit-light';
+    src: url(font/kanit-light.otf);
+}

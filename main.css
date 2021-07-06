@@ -1,0 +1,404 @@
+@import url(reset.css);
+@import url(font.css);
+.button{
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    cursor: pointer;
+    left: -560px;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    
+}
+
+.inbutton{
+    width: 344px;
+    height: 359px;
+    background-color: #fff;
+    position:absolute;
+    left: 80px;
+    top: 100px;
+    box-shadow: 0 0 10px black;
+    padding: 52px 20px 55px 66px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: .700s opacity, .700s visibility;
+    
+    
+    
+}
+.texta{
+    line-height: 35px;
+    color: black;
+    font-family: 'kanit-regular';
+
+}
+
+.button:hover .inbutton{
+    opacity: 1;
+    visibility: visible;
+}
+.button:hover{
+    background-color: rgba(128, 128, 128, 0.563);
+}
+
+
+.line1{
+    position: relative;
+    left: 15px;
+    top:3px;
+}
+.line2{
+    position: relative;
+    right: 8px;
+    top: 1px;
+}
+
+.head,.foot{
+    width: 1440px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.foot{
+    background-color: rgb(0, 0, 0);
+    margin: 108px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgsf{
+    margin: 0 20px;
+    position: relative;
+    left: -60px;
+}
+.body,.body2,.body3,.body4,.body5,.body6,.body7,.body8,.body9{
+    width: 1440px;
+    height: 570px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;    
+}
+.body2{
+    height: 707px
+}
+.body3{
+    height: 459px;
+}
+.body4{
+    height: 460px;
+}
+.body5{
+    height: 100.63px;
+}
+.body6{
+    height: 463px;
+}
+.body7{
+    height: 70.63px;
+}
+.body8{
+    height: 463px;
+}
+.body9{
+    height: 120px;
+}
+.photos1{
+    width: 720px;
+    height: 570px;
+    background-image: url(image/philip-martin-5aGUyCW_PJw-unsplash.png);
+}
+.photos2{
+    width: 720px;
+    height: 570px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.text1{
+    width: 136px;
+    height: 19px;
+    font-size: 16px;
+    font-family: 'Kanit-extaralight';
+    color: white;
+    margin: 111px 0 0 109px;
+}
+.Lifestyle{
+    padding: 0;
+    color: white;
+    font-family: 'kanit-regular';
+    position: relative;
+    left: 426px;
+    bottom: 16px;
+    font-size: 16px;
+    
+
+}
+.Lifestyle::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.652);
+    bottom: 3px;
+    
+}
+.text2{
+    color: white;
+    font-family: 'kanit-medium';
+    font-size: 27px;
+    margin: 10px 0 0 108px;
+}
+.text3{
+    color: white;
+    font-family: 'Kanit-extaralight';
+    font-size: 13px;
+    margin: 0 0 0px 108px;
+    position: relative;
+    bottom: 10px;
+    text-align: 30px;
+    
+}
+.blocktext1{
+    width: 198px;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 151px 108px;
+    position: relative;
+    top:58px
+}
+.text4{
+    color: white;
+    font-family: 'kanit-light';
+    font-size: 12px;
+    margin: 0 ;
+}
+.block1{
+    margin: 59px auto;
+    width: 1145px;
+    height: 648px;
+   
+    display: flex;
+    justify-content: flex-start;
+}
+.blockfor1{
+    width: 559px;
+    height: 648px;
+   
+
+}
+.blockfor2{
+    width: 559px;
+    margin: 0 0 0 27px;
+    height: 648px;
+    
+}
+.text5{
+    color: rgb(0, 0, 0);
+    font-family: 'kanit-regular';
+    font-size: 18px;
+    margin: 3px 0 0 0;
+}
+.image1{
+    margin: 35px 0 0 0;
+}
+.image2{
+    margin: 55px 0 0 0;
+}
+.downtext1{
+    font-size: 14px;
+    font-family: 'Kanit-extaralight';
+    color: rgb(0, 0, 0);
+    margin: 24px 0 0 0;
+}
+.downtext2{
+    font-size: 12px;
+    font-family:  'kanit-regular';
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 373px;
+    top: 5px;
+
+    
+}
+.downtext2::after{
+    content: '';
+    display: block;
+    width: 57px;
+    height: 2px;
+    position: relative;
+    left: 123px;
+    bottom: 2px;
+    background-color: gray;
+}
+.bodytext{
+    color: rgb(0, 0, 0);
+    font-family: 'kanit-medium';
+    font-size: 25px;
+    margin: 8px 0 0 0;
+    line-height: 30px;
+}
+.bodytext2{
+    color: rgb(0, 0, 0);
+    font-family: 'Kanit-extaralight';
+    font-size: 18px;
+    line-height: 25px;
+}
+.block2{
+    width: 1143px;
+    height: 432px;
+    display: flex;
+    justify-content: flex-start;
+    
+    margin: 63px auto;
+}
+.blockfor21,.blockfor22,.blockfor23{
+    width: 365px;
+    height: 432px;
+    
+}
+.blockfor21{
+    margin: 0 23px 0 0 ;
+}
+.blockfor22{
+    margin:0 23px 0 0 ;
+}
+.newtext1{
+    font-size: 14px;
+    font-family: 'Kanit-extaralight';
+    color: rgb(0, 0, 0);
+    margin: 6px 0 0 0 ;
+}
+.newtext2{
+    font-size: 12px;
+    font-family:  'kanit-regular';
+    color: rgb(0, 0, 0);
+    margin: 0px 0 0 189px;
+    position: relative;
+    top: 3px;
+    
+}
+.newtext2::after{
+    content: '';
+    display: block;
+    width: 57px;
+    height: 2px;
+    position: relative;
+    left: 307px;
+    bottom: 2px;
+    background-color: gray;
+}
+.newtext3{
+    color: rgb(0, 0, 0);
+    font-family: 'kanit-medium';
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+.button2{
+    width: 238px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.837);
+    margin: 69px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbutton{
+    font-size: 13px;
+    font-family:  'kanit-regular';
+    color: rgb(255, 255, 255);
+}
+.block3{
+    width: 1143.5px;
+    height: 360px;
+    
+    margin: 100.33px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.blockfor31{
+    width: 571.5px;
+    height: 360px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 0 0 3.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textblock1{
+    width: 335px;
+    height: 51px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.textsimple{
+    color: rgb(255, 255, 255);
+    font-family: 'kanit-medium';
+    font-size: 33px;
+}
+.textblock2{
+    width: 198px;
+    height: 42px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.textsimple2{
+    font-size: 13px;
+    font-family:  'kanit-regular';
+    color: rgb(255, 255, 255);
+}
+.block4{
+    width: 1143px;
+    height: 19px;
+    margin: 63.27px auto;
+    
+}
+.newtext4{
+    font-size: 12px;
+    font-family:  'kanit-regular';
+    color: rgb(0, 0, 0);
+    margin: 0px 0 0 212px;
+    position: relative;
+    top: 3px;
+    width: 10px;    
+}
+.newtext4::after{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 2px;
+    position: relative;
+    left: 329px;
+    bottom: 2px;
+    background-color: gray;
+}
+.tooltext{
+    font-size: 12px;
+    font-family: 'Kanit-extaralight';
+    color: rgb(255, 255, 255);
+    position: relative;
+    top:38px;
+    
+    
+}
+
