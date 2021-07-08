@@ -157,15 +157,15 @@
     font-size: 27px;
     margin: 10px 0 0 108px;
 }
-.text3{
+.text3 {
     color: white;
     font-family: 'Kanit-extaralight';
     font-size: 13px;
-    margin: 0 0 0px 108px;
+    margin: 0 159px 0px 108px;
     position: relative;
     bottom: 10px;
     text-align: 30px;
-    
+    line-height: 25px;
 }
 .blocktext1{
     width: 198px;
@@ -261,7 +261,6 @@
     height: 432px;
     display: flex;
     justify-content: flex-start;
-    
     margin: 63px auto;
 }
 .blockfor21,.blockfor22,.blockfor23{
@@ -323,7 +322,6 @@
 .block3{
     width: 1143.5px;
     height: 360px;
-    
     margin: 100.33px auto;
     display: flex;
     justify-content: flex-start;
@@ -400,5 +398,826 @@
     top:38px;
     
     
+}
+@media  screen  and (max-width:1240px ){
+    .head,.foot{
+        width: 1240px;
+        height: 120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .button{
+        width: 104px;
+        height: 120px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        cursor: pointer;
+        left: -468px;
+        transition-duration: 0.5s;
+        transition-property: background-color;
+        
+    }
+    .inbutton{
+        width: 238px;
+        height: 245px;
+        background-color: #fff;
+        position:absolute;
+        left: 80px;
+        top: 100px;
+        box-shadow: 0 0 10px black;
+        padding: 29px 33px 36px 29px;
+        cursor: pointer;
+        transition: .700s opacity, .700s visibility;
+    }
+    .body,.body2,.body3,.body4,.body6,.body8,.body9{
+        width: 1240px;
+        height: 570px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;    
+    }
+    .body2{
+        height: 659px;
+    }
+    .body3{
+        height: 452px;
+    }
+    .body4{
+        height: 461px;
+    }
+    .body6{
+        height: 408px;
+    }
+    .body8{
+        height: 408px;
+    }
+    .body9{
+        height: 120px;
+    }
+    .photos1{
+        width: 620px;
+        height: 570px;
+        background-image: url(image/philip-martin-5aGUyCW_PJw-unsplash.png);
+        background-size: cover;
+        margin: 0 auto; 
+    }
+    .photos2{
+        width: 620px;
+        height: 570px;
+        background-color: rgb(0, 0, 0);
+    }
+    .text1{
+        width: 136px;
+        height: 19px;
+        font-size: 16px;
+        font-family: 'Kanit-extaralight';
+        color: white;
+        margin: 128px 0 0 104px;
+    }
+    .Lifestyle{
+        padding: 0;
+        color: white;
+        font-family: 'kanit-regular';
+        position: relative;
+        left: 337px;
+        bottom: 16px;
+        font-size: 16px;
+    }
+    .text2{
+        color: white;
+        font-family: 'kanit-medium';
+        font-size: 27px;
+        margin: 10px 104px 0 108px;
+    }
+    .text3 {
+        color: white;
+        font-family: 'Kanit-extaralight';
+        font-size: 13px;
+        margin: 0 153px 0px 108px;
+        position: relative;
+        bottom: 10px;
+        text-align: 30px;
+        line-height: 25px;
+    }
+    .blocktext1{
+        width: 198px;
+        height: 55px;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 151px 108px;
+        position: relative;
+        top: 19px;
+    }
+    .block1{
+        margin: 59px auto 0 auto;
+        width: 941px;
+        height: 600px;
+       
+        display: flex;
+        justify-content: flex-start;
+    }
+    .blockfor1{
+        width: 455px;
+        height: 600px;
+    }
+    .newtext1 {
+        font-size: 13px;
+        font-family: Kanit-extaralight;
+        color: rgb(0, 0, 0);
+        margin: 6px 0px 0px;
+        width: 400px;
+    }
+    .blockfor2{
+        width: 455px;
+        height: 600px;
+    }
+    .image1{
+        margin: 35px 0 0 0;
+        width: 455px;
+        height: 301px;
+    }
+    .image2{
+        margin: 55px 0 0 0;
+        width: 455px;
+        height: 301px;
+    }
+    .downtext2 {
+        font-size: 12px;
+        font-family: kanit-regular;
+        color: rgb(0, 0, 0);
+        position: relative;
+        left: 273px;
+        top: 5px;
+    }
+    .block2{
+        width: 941px;
+        height: 408px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 63px auto;
+    }
+    .blockfor21,.blockfor22,.blockfor23{
+        width: 293px;
+        height: 48px;
+        
+    }
+    .imageteleport{
+        width: 295px;
+        height: 195px;
+    }
+    .imageteleport2{
+        width: 470px;
+        height: 360px;
+    }
+    .newtext2 {
+        font-size: 12px;
+        font-family: kanit-regular;
+        color: rgb(0, 0, 0);
+        margin: 0px 0px 0px 130px;
+        
+    }
+    .newtext2::after{
+        content: '';
+        display: block;
+        width: 57px;
+        height: 2px;
+        position: relative;
+        bottom: 2px;
+        left: 238px;
+        background-color: gray;
+    }
+    .block3{
+        width: 938.59px;
+        height: 360px;
+        margin: 100.33px auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .blockfor31{
+        width: 469.59px;
+        height: 360px;
+        background-color: rgb(0, 0, 0);
+        margin: 0 0 0 3.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .newtext4{
+        font-size: 12px;
+        font-family:  'kanit-regular';
+        color: rgb(0, 0, 0);
+        margin: 0px 0 0 156px;
+        position: relative;
+        width: 10px;    
+    }
+    .newtext4::after{
+        content: '';
+        display: block;
+        width: 32px;
+        height: 2px;
+        position: relative;
+        left: 265px;
+        bottom: 2px;
+        background-color: gray;
+    }
+    .foot{
+        margin: 87px auto;
+    }
+    .texta {
+        line-height: 26px;
+        color: black;
+        font-family: kanit-regular;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:768px ) {
+    .head,.foot{
+        width: 768px;
+        height: 65px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .foot{
+        height: 163px;
+    }
+    .button {
+        width: 65px;
+        height: 65px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        left: -253px;
+        transition-duration: 0.5s;
+        transition-property: background-color;
+    }
+    .inbutton {
+        width: 172px;
+        height: 183px;
+        background-color: #fff;
+        position: absolute;
+        left: 42px;
+        top: 68px;
+        box-shadow: 0 0 10px black;
+        padding: 14px 32px 0px 23px;
+        cursor: pointer;
+        transition: .700s opacity, .700s visibility;
+    }
+    .texta {
+        line-height: 23px;
+        color: black;
+        font-family: kanit-regular;
+        font-size: 12px;
+    }
+    .body,.body2,.body3,.body4,.body5,.body6,.body7,.body8,.body9{
+        width: 768px;
+        height: 665px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;    
+    }
+    .body{
+        height: 354px;
+    }
+    .body2 {
+        height: 588px;
+    }
+    .body3{
+        height: 386px;
+    }
+    .body4{
+        height: 385px;
+    }
+
+    .body5{
+        height: 100px;
+    }
+    .body6{
+        height: 385px;
+    }
+    .body7{
+        height: 100px;
+    }
+    .body8{
+        height: 385px;
+    }
+    .body9{
+        height: 163px;
+    }
+    
+    .photos1{
+        width: 385px;
+        height: 354px;
+        background-image: url(image/philip-martin-5aGUyCW_PJw-unsplash.png);
+        background-size: cover;
+        margin: 0 auto; 
+    }
+    .photos2{
+        width: 385px;
+        height: 354px;
+        background-color: rgb(0, 0, 0);
+    }
+    .text1 {
+        width: 136px;
+        height: 19px;
+        font-size: 12px;
+        font-family: Kanit-extaralight;
+        color: white;
+        margin: 72px 0px 0px 21px;
+    }
+    .text2 {
+        color: white;
+        font-family: kanit-medium;
+        font-size: 18px;
+        margin: 1px 70px 0px 21px;
+        position: relative;
+        bottom: 26px;
+    }
+    .Lifestyle{
+        display: none;
+    }
+    .text3 {
+        color: white;
+        font-family: Kanit-extaralight;
+        font-size: 12px;
+        margin: 0px 32px 0px 22px;
+        position: relative;
+        bottom: 40px;
+        line-height: 25px;
+    }
+    .blocktext1 {
+        width: 198px;
+        height: 40px;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 3px 108px;
+        position: relative;
+        top: -23px;
+        left: -88px;
+    }
+    .block1{
+        margin: 59px auto 0 auto;
+        width: 720px;
+        height: 600px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .blockfor1 {
+        width: 455px;
+        height: 600px;
+    }
+    .blockfor1 {
+        width: 345px;
+        height: 460px;
+    }
+    .blockfor2 {
+        width: 345px;
+        height: 460px;
+    }
+    .text5 {
+        color: rgb(0, 0, 0);
+        font-family: kanit-regular;
+        font-size: 15px;
+        margin: 3px 0px 0px;
+    }
+    .image1,.image2 {
+        width: 345px;
+        height: 228px;
+    }
+    .downtext2 {
+        font-size: 12px;
+        font-family: kanit-regular;
+        color: rgb(0, 0, 0);
+        position: relative;
+        left: 163px;
+        top:-3px;
+    }
+    .block2{
+        width: 720px;
+        height: 338px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 63px auto;
+    }
+    .blockfor21,.blockfor22,.blockfor23{
+        width: 238px;
+        height: 336px;
+        margin: 0 11px 0 0;
+        
+    }
+    .imageteleport12{
+        width: 220px;
+        height: 145px;
+    }
+    .newtext1 {
+        font-size: 12px;
+        font-family: Kanit-extaralight;
+        color: rgb(0, 0, 0);
+        margin: 6px 0px 0px;
+        width: 400px;
+    }
+    .newtext2 {
+        font-size: 12px;
+        font-family: kanit-regular;
+        color: rgb(0, 0, 0);
+        margin: 0px 0px 0px 63px;
+        
+    }
+    .newtext2::after{
+        content: '';
+        display: block;
+        width: 57px;
+        height: 2px;
+        position: relative;
+        bottom: 2px;
+        left: 163px;
+        background-color: gray;
+    }
+    .block3{
+        width: 718.69px;
+        height: 275.49px;
+        margin: 100.33px auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .imageteleport2{
+        width: 359px;
+        height: 275px;
+    }
+    .blockfor31{
+        width: 359px;
+        height: 275px;
+        background-color: rgb(0, 0, 0);
+        margin: 0 0 0 3.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textsimple{
+        color: rgb(255, 255, 255);
+        font-family: 'kanit-medium';
+        font-size: 33px;
+    }
+    .block4{
+        margin: 0 20px;
+    }
+    .newtext2 {
+        font-size: 12px;
+        font-family: kanit-regular;
+        color: rgb(0, 0, 0);
+        margin: 0px 0px 0px 63px;
+        position: relative;
+        top:-2px;
+    }
+    .block4 {
+        width: 720px;
+        height: 19px;
+        margin: 63.27px auto;
+    }
+    .newtext4 {
+        font-size: 12px;
+        font-family: 'kanit-regular';
+        color: rgb(0, 0, 0);
+        margin: 0px 0 0 90px;
+        position: relative;
+        top: -2px;
+        width: 10px;
+    }
+    .newtext4::after {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 2px;
+        position: relative;
+        left: 190px;
+        bottom: 2px;
+        background-color: gray;
+    }
+}
+@media screen and (max-width:320px ){
+    .head{
+        width: 320px;
+        height: 65px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .body,.body2,.body3,.body4,.body5,.body6,.body8,.body9{
+        width: 320px;
+        height: 541px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;    
+    }
+    .body{
+        height: 586px;
+    }
+    .body2{
+        height: 1137px;
+    }
+    .body3{
+        height: 1000px;
+    }
+    .body4{
+        height: 590px;
+    }
+    .body5{
+        height: 136px;
+    }
+    .body6{
+        height: 1031px;
+    }
+    .body8{
+        height: 1090px;
+    }
+    .body9{
+        height: 163px;
+    }
+    .imgsf {
+        margin: 0 20px;
+        position: relative;
+        left: -18px;
+    }
+    .button {
+        width: 65px;
+        height: 65px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        left: -28px;
+        transition-duration: 0.5s;
+        transition-property: background-color;
+    }
+    .inbutton {
+        width: 113px;
+        height: 132px;
+        background-color: #fff;
+        position: absolute;
+        left: 42px;
+        top: 68px;
+        box-shadow: 0 0 10px black;
+        padding: 9px 32px 0px 19px;
+        cursor: pointer;
+        transition: .700s opacity, .700s visibility;
+    }
+    .texta {
+        line-height: 13px;
+        color: black;
+        font-family: kanit-regular;
+        font-size: 10px;
+    }
+    .photos1 {
+        width: 320px;
+        height: 294px;
+        background-image: url(image/philip-martin-5aGUyCW_PJw-unsplash.png);
+        background-size: cover;
+        margin: 0 auto;
+    }
+    .photos2{
+        width: 320px;
+        height: 294px;
+        background-color: rgb(0, 0, 0);
+    }
+    .text1 {
+        width: 136px;
+        height: 19px;
+        font-size: 12px;
+        font-family: Kanit-extaralight;
+        color: white;
+        margin: 15px 0px 0px 21px;
+    }
+    .text2 {
+        color: white;
+        font-family: kanit-medium;
+        font-size: 18px;
+        margin: 1px 19px 0px 19px;
+        position: relative;
+        bottom: 36px;
+    }
+    .text3 {
+        color: white;
+        font-family: Kanit-extaralight;
+        font-size: 11px;
+        margin: 0px 14px 0px 22px;
+        position: relative;
+        bottom: 59px;
+        line-height: 25px;
+    }
+    .blocktext1 {
+        width: 198px;
+        height: 40px;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 3px 108px;
+        position: relative;
+        top: -34px;
+        left: -88px;
+    }
+    .block1 {
+        margin: 59px auto 0 auto;
+        width:295px;
+        height: 1074px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .blockfor1 {
+        width: 295px;
+        height: 520px;
+    }
+    .blockfor2 {
+        width: 295px;
+        height: 554px;
+        margin: 0 auto;
+    }
+    .image1, .image2 {
+        width: 295px;
+        height: 195px;
+    }
+    .downtext2 {
+        font-size: 12px;
+        font-family: kanit-regular;
+        color: rgb(0, 0, 0);
+        position: relative;
+        left: 115px;
+        top: -3px;
+    }
+    .block2 {
+        width: 270px;
+        height: 932px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 63px auto;
+    }
+    .blockfor21, .blockfor22, .blockfor23 {
+        width: 259px;
+        height: 271px;
+        margin: 0 11px 0 0;
+    }
+    .newtext1{
+        display: none;
+    }
+    .newtext2{
+        display: none;
+    }
+    .newtext3{
+        display: none;
+    }
+    .imageteleport{
+        display: none;
+    }
+    .button2{
+        display: none;
+    }
+    .newblockfor21{
+        display: block;
+        width: 309px;
+        height: 271px;
+        background-image: url(image/Group\ 7.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor22{
+        display: block;
+        width: 309px;
+        height: 284px;
+        background-image: url(image/Group\ 6.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor23{
+        display: block;
+        width: 309px;
+        height: 284px;
+        background-image: url(image/Group\ 14.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newbutton{
+        display: block;
+        width: 232px;
+        height: 42px;
+        background-image: url(image/Group\ 9.png);
+        background-size: cover;
+        margin: 37px auto;
+    }
+    .block3 {
+        width: 320px;
+        height: 420.61px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imageteleport2 {
+        width: 320px;
+        height: 245px;
+    }
+    .blockfor31 {
+        width: 320px;
+        height: 245px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: -3px;
+    }
+    .textsimple {
+        color: rgb(255, 255, 255);
+        font-family: 'kanit-medium';
+        font-size: 21px;
+    }
+    .textblock1 {
+        width: 295px;
+        height: 51px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .block4 {
+        width: 720px;
+        height: 19px;
+        margin: 41.27px 16px;
+    }
+    .newblockfor211{
+        display: block;
+        width: 309px;
+        height: 271px;
+        background-image: url(image/Group\ 15.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor222{
+        display: block;
+        width: 309px;
+        height: 284px;
+        background-image: url(image/Group\ 16.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor233{
+        display: block;
+        width: 309px;
+        height: 284px;
+        background-image: url(image/Group\ 17.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor2111{
+        display: block;
+        width: 309px;
+        height: 271px;
+        background-image: url(image/Group\ 18.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor2222{
+        display: block;
+        width: 309px;
+        height: 284px;
+        background-image: url(image/Group\ 19.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+    .newblockfor2333{
+        display: block;
+        width: 309px;
+        height: 284px;
+        background-image: url(image/Group\ 20.png);
+        background-size: cover;
+        margin: 0 -23px;
+    }
+
+
+
 }
 
